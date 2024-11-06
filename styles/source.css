@@ -1,13 +1,23 @@
+body {
+  text-align: center;
+}
 h1 {
-  font-size: 96px;
   font-weight: bold;
+  font-size: 64px;
 }
 h2 {
   font-size: 24px;
 }
+h3 {
+  font-size: 18px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
 p {
-  font-size: 36px;
+  font-size: 16px;
   font-weight: bold;
+  font-family: "Poppins" serif;
+  text-align: justify;
 }
 .hero {
   text-align: center;
@@ -23,6 +33,14 @@ p {
 
   margin-top: 25px;
 }
+.btn-project {
+  font-family: "Poppins";
+  color: #6c63ff;
+  border-radius: 4px;
+  padding: 18px 30px;
+  border: 1px solid #6c63ff;
+  margin-top: 25px;
+}
 .hero h1,
 h2,
 h3,
@@ -31,6 +49,9 @@ h5,
 h6 {
   font-family: "Playfair", sans-serif;
 }
-.hero .hero p {
-  font-family: "Poppins" serif;
+.hero h1 {
+  font-size: 96px;
+}
+.hero p {
+  font-size: 36px;
 }
