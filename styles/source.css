@@ -65,3 +65,25 @@ h6 {
 .project-description {
   padding: 40px 20px;
 }
+
+@media (max-width: 965px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .hero h1 {
+    font-size: 44px;
+  }
+  .hero p {
+    font-size: 24px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
