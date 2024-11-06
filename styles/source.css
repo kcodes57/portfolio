@@ -1,2 +1,27 @@
-body {
+h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px;
+}
+p {
+  font-size: 36px;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  background-color: #f9f7fe;
+  padding: 120px 80px;
+}
+.hero h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair", sans-serif;
+}
+.hero .hero p {
+  font-family: "Poppins", sans-serif;
 }
