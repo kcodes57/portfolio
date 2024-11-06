@@ -14,6 +14,15 @@ p {
   background-color: #f9f7fe;
   padding: 120px 80px;
 }
+.btn-branding {
+  background-color: #6c63ff;
+  font-family: "Poppins";
+  color: #ffff;
+  border-radius: 4px;
+  padding: 18px 30px;
+
+  margin-top: 25px;
+}
 .hero h1,
 h2,
 h3,
@@ -23,5 +32,5 @@ h6 {
   font-family: "Playfair", sans-serif;
 }
 .hero .hero p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins" serif;
 }
