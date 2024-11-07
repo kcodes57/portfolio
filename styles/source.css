@@ -53,6 +53,17 @@ p {
 .kirsten {
   margin: 50px;
 }
+.work-page-description {
+  font-family: var(--paragraph-font);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.work-page-description p {
+  font-size: 12px;
+  text-align: center;
+  font-weight: normal;
+}
 
 .btn-branding {
   background-color: var(--branding-color);
