@@ -20,15 +20,19 @@ h3 {
   padding-bottom: 30px;
 }
 p {
-  font-size: 16px;
   font-weight: bold;
   font-family: var(--paragraph-font);
-  text-align: justify;
 }
 .hero {
   text-align: center;
   background-color: #f9f7fe;
   padding: 120px 80px;
+}
+.project-description-p {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--paragraph-font);
+  text-align: justify;
 }
 .about-me {
   text-align: center;
@@ -49,20 +53,6 @@ p {
   font-size: 16px;
   margin-top: 30px;
   line-height: 30px;
-}
-.kirsten {
-  margin: 50px;
-}
-.work-page-description {
-  font-family: var(--paragraph-font);
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.work-page-description p {
-  font-size: 12px;
-  text-align: center;
-  font-weight: normal;
 }
 
 .btn-branding {
@@ -106,6 +96,18 @@ h6 {
   margin-right: auto;
   width: 45%;
   padding-top: 100px;
+  margin: 50px;
+}
+.work-page-description {
+  font-family: var(--paragraph-font);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.work-page-description-p {
+  font-size: 12px;
+  text-align: center;
+  font-weight: normal;
 }
 
 @media (max-width: 965px) {
