@@ -107,7 +107,7 @@ h6 {
 .work-page-description-p {
   font-size: 12px;
   text-align: center;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 @media (max-width: 965px) {
@@ -149,5 +149,16 @@ h6 {
   }
   .kirsten {
     padding-top: 0px;
+  }
+  .work-page-description {
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .work-images {
+    vertical-align: center;
+    object-fit: auto;
+    border-radius: 20px;
   }
 }
