@@ -150,15 +150,21 @@ h6 {
   .kirsten {
     padding-top: 0px;
   }
+
   .work-page-description {
     font-family: var(--paragraph-font);
     font-size: 20px;
-    margin: 20px;
-    padding: 20px;
+  }
+  .work-page-description-p {
+    font-family: var(--paragraph-font);
+    margin-bottom: 5px;
+  }
+  .work-header {
+    font-size: 30px;
   }
   .work-images {
-    vertical-align: center;
-    object-fit: auto;
-    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
   }
 }
