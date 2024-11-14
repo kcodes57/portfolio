@@ -24,7 +24,7 @@ p {
   font-family: var(--paragraph-font);
 }
 
-footer a {
+.email-link {
   font-size: 24px;
   font-family: var(--paragraph-font);
   color: black;
@@ -33,6 +33,13 @@ footer a {
   color: var(--branding-color);
 
   max-height: 40px;
+}
+.github-link {
+  font-weight: bold;
+  font-family: var(--paragraph-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .logo {
   max-height: 40px;
@@ -64,6 +71,7 @@ footer a {
   font-family: var(--paragraph-font);
   text-align: justify;
 }
+
 .about-me {
   text-align: center;
 
