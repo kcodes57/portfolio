@@ -23,6 +23,17 @@ p {
   font-weight: bold;
   font-family: var(--paragraph-font);
 }
+
+footer a {
+  font-size: 24px;
+  font-family: var(--paragraph-font);
+  color: black;
+}
+.fa-brands {
+  color: var(--branding-color);
+
+  max-height: 40px;
+}
 .logo {
   max-height: 40px;
 }
