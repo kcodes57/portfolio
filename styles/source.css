@@ -117,6 +117,7 @@ h6 {
   text-align: center;
 }
 .project-description {
+  max-height: 200px;
   padding: 40px 20px;
   font-family: var(--heading-font);
 }
