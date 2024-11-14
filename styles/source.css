@@ -47,6 +47,11 @@ footer a {
 }
 .work-inquiry {
   background-color: #f9f7fe;
+  border-radius: 20px;
+}
+.work-inquiry h2 {
+  font-size: 48px;
+  font-weight: bold;
 }
 .hero {
   text-align: center;
@@ -86,7 +91,6 @@ footer a {
   color: #ffff;
   border-radius: 4px;
   padding: 18px 30px;
-
   margin-top: 25px;
 }
 .btn-project {
@@ -114,6 +118,7 @@ h6 {
 }
 .project-description {
   padding: 40px 20px;
+  font-family: var(--heading-font);
 }
 .kirsten {
   display: block;
