@@ -45,6 +45,9 @@ footer a {
 .navbar-light .navbar-nav .nav-link.active {
   color: var(--branding-color);
 }
+.work-inquiry {
+  background-color: #f9f7fe;
+}
 .hero {
   text-align: center;
   background-color: #f9f7fe;
