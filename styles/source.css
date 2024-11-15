@@ -125,7 +125,6 @@ h6 {
   text-align: center;
 }
 .project-description {
-  max-height: 200px;
   padding: 40px 20px;
   font-family: var(--heading-font);
 }
@@ -165,9 +164,12 @@ h6 {
   .hero p {
     font-size: 24px;
   }
+  .project-description-p {
+    padding: 30px 10px;
+  }
   .project-description {
-    padding: 0;
     text-align: center;
+    padding: 30px 10px;
   }
   .about-me {
     margin: none;
